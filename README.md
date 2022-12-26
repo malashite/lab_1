@@ -56,16 +56,36 @@
 4. "email"  типа varchar для хранения адреса электронной почты пользователя,
 5. "password" типа varchar для хранения пароля пользователя в хешированном виде,
 6. "avatar" типа varchar для хранения аватарки пользователя.
-![phpmyadmin](pics/phpmyadmin.PNG)
+
+
+![phpmyadmin](pics/phpmyadmin.png)
+
+
 Пример данных, введенных пользователем:
-![users](pics/users.PNG)
+
+
+![users](pics/users.png)
+
+
 ## Описание алгоритмов
 1. Алгоритм авторизации
-![auth](pics/auth.PNG)
+
+
+![auth](pics/auth.png)
+
+
 2. Алгоритм регистрации
-![reg](pics/reg.PNG)
+
+
+![reg](pics/reg.png)
+
+
 ## Пример HTTP запросов/ответов
+
+
 ![http](pics/http.svg)
+
+
 ## Значимые фрагменты кода
 1. Алгоритм авторизации
 ```
